@@ -33,7 +33,7 @@ environment:
   NPM_CONFIG_UPDATE_NOTIFIER: false
 
 entrypoint:
-  command: renovate
+  command: /usr/local/bin/renovate
 
 cmd: --help
 
