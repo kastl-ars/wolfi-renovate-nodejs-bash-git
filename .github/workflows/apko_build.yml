@@ -43,12 +43,3 @@ jobs:
           # Tag is the tag that will be published.
           # Required.
           tag: ghcr.io/kastl-ars/wolfi-renovate-nodejs-bash-git:latest
-      - id: wolfi-renovate-nodejs20-bash-git
-        uses: distroless/actions/apko-publish@main
-        with:
-          # Config is the configuration file to use for the image build.
-          # Optional, will use .apko.yaml without a defined one.
-          config: wolfi-renovate-nodejs20-bash-git.yaml
-          # Tag is the tag that will be published.
-          # Required.
-          tag: ghcr.io/kastl-ars/wolfi-renovate-nodejs-bash-git:20
