@@ -9,7 +9,7 @@ The image is inspired by the [Chainguard node
 image](https://images.chainguard.dev/directory/image/node/overview), i.e. I
 adapted the
 [apko.yaml](https://github.com/chainguard-images/images/blob/main/images/node/config/template.apko.yaml)
-file used to build that image and added `bash`.
+file used to build that image and added `bash`, `git` and `renovate`.
 
 Kudos to the Chainguard team for making it so easy and painless to build a small
 and secure image!
