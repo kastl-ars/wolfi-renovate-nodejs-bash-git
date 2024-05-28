@@ -14,6 +14,24 @@ file used to build that image and added `bash`, `git` and `renovate`.
 Kudos to the Chainguard team for making it so easy and painless to build a small
 and secure image!
 
+## Testing the image
+
+The image can be tested using the `test_the_image.sh`, which will run this with
+[Podman](https://podman.io/) and will output the version:
+
+```
+$ ./test_the_image.sh
+Trying to pull ghcr.io/kastl-ars/wolfi-renovate-nodejs-bash-git:22...
+Getting image source signatures
+Copying blob 7e5a0c5b4516 skipped: already exists
+Copying config 9815666748 done   |
+Writing manifest to image destination
+(node:1) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+37.381.0
+$
+```
+
 ## Licensing
 
 The container image contains software packages that are direct or transitive
