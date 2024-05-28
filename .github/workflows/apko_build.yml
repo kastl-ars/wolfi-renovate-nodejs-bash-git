@@ -42,4 +42,4 @@ jobs:
           config: wolfi-renovate-nodejs22-bash-git.yaml
           # Tag is the tag that will be published.
           # Required.
-          tag: ghcr.io/kastl-ars/wolfi-renovate-nodejs-bash-git:latest
+          tag: ghcr.io/kastl-ars/wolfi-renovate-nodejs-bash-git:latest ghcr.io/kastl-ars/wolfi-renovate-nodejs-bash-git:22
