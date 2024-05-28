@@ -33,8 +33,6 @@ environment:
 entrypoint:
   command: /usr/local/bin/renovate
 
-cmd: --help
-
 # By convention, the official Docker node image defines a `node` user, but
 # doesn't run as it unless the image based on it specifies that user.
 accounts:
