@@ -11,6 +11,7 @@ contents:
     - busybox
     - nodejs-22
     - git
+    - gnupg
     - renovate
 
 # By convention, Node apps run in an /app directory, which should be owned by
