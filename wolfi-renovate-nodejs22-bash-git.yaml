@@ -13,6 +13,7 @@ contents:
     - git
     - gnupg
     - gpg
+    - gpg-agent
     - renovate
 
 # By convention, Node apps run in an /app directory, which should be owned by
